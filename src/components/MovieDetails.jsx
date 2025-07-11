@@ -2,8 +2,7 @@ import { useState, useRef, useEffect } from "react";
 import StarRating from "./StarRating";
 import { useKey } from "../hooks/useKey";
 import Loader from "./Loader";
-
-export const KEY = "977f93d3"; // omdb api key (example)
+import { KEY } from "../config/api";
 
 export default function MovieDetails({
   selectedId,

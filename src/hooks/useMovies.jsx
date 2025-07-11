@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
-
-const KEY = "977f93d3"; // omdb api key (example)
+import { KEY } from "../config/api";
 
 export function useMovies(query) {
   const [movies, setMovies] = useState([]);
